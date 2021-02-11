@@ -1,0 +1,32 @@
+.container-1 {
+    padding: 22px;
+}
+
+.flex-box-container-1 {
+    display: flex;
+    border: 1px solid transparent;
+    padding: .1em;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.flex-box-container-1 div {
+    display: flex;
+    padding: 10px;
+    border: 1px solid transparent;
+    align-items: center;
+}
+
+#myDIV .flex-box-container-1 {
+    display: flex;
+    border: 1px solid transparent;
+    padding: 3em;
+    align-items: center;
+}
+
+mark {
+    color: black;
+    background-color: yellow;
+    padding: 1px;
+}
